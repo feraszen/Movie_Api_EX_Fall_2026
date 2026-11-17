@@ -155,3 +155,9 @@ Once it runs, extend it. Each of these touches more than one layer.
 3. A movie has a `runtimeMinutes` field that shows up in the JSON and the database.
 4. `GET /api/snacks/sweet` returns only sweet snacks.
 5. A third entity of your choice (a `Friend` who's coming to movie night?) with full CRUD.
+
+## Docker Practice Completion
+
+Completed the Docker practice by creating a multi-stage Dockerfile, building a Docker image, configuring a Spring Boot application to connect to a local MySQL database using `host.docker.internal`, creating a `docker-compose.yml` file, and successfully running the application with Docker Compose.
+
+Verified functionality through Swagger UI and tested the `/movies/getAllMovies` endpoint successfully.
